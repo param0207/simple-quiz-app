@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="./main.js"></script>(STOP HTML PARSING AND DOWNLOAD AND EXECUTE JS FILE FIRST) -->
+
+    <!-- <script src="./main.js" async></script>(IN ASYNC IT WILL DOWNLOAD JS PARALLEL TO HTML FILE BUT STOP HTML PARSING WHILE EXECUTING JS FILE) -->
+
+    <!-- <script src="./main.js" defer></script>(IN DEFER IT WILL DOWNLOAD JS PARALLEL TO HTML FILE AND EXECUTING JS FILE AFTER HTML PARSING WILL END) -->
+  </head>
+  <body>
+    <div class="cong">
+      <h1>Congratulations!!</h1>
+      <p>You got them all right</p>
+    </div>
+    <form class="quiz-form">
+      <ol>
+        <li class="question-item" data-answer="Inception">
+          What is it called when a function call itself?
+          <ol type="a">
+            <li>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-option"
+                value="Inception"
+                class="answer"
+              />
+              <label for="question-option">Inception</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-option"
+                value="Recursion"
+                class="answer"
+              />
+              <label for="question-option">Recursion</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-option"
+                value="Who Cares"
+                class="answer"
+              />
+              <label for="question-option">Who Cares</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-option"
+                value="Self-Referential"
+                class="answer"
+              />
+              <label for="question-option">Self-Referential</label>
+            </li>
+          </ol>
+        </li>
+
+        <!-- 2nd  -->
+        <li class="question-item" data-answer="Character">
+          Which of the following is not a valid JavaScript data type?
+          <ol type="a">
+            <li>
+              <input
+                type="radio"
+                name="question-2"
+                id="question-option"
+                value="Character"
+                class="answer"
+              />
+              <label for="question-option">Character</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="question-2"
+                id="question-option"
+                value="String"
+                class="answer"
+              />
+              <label for="question-option">String</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="question-2"
+                id="question-option"
+                value="Number"
+                class="answer"
+              />
+              <label for="question-option">Number</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="question-2"
+                id="question-option"
+                value="Undefined"
+                class="answer"
+              />
+              <label for="question-option">Undefined</label>
+            </li>
+          </ol>
+        </li>
+
+        <!-- 3rd  -->
+
+        <li class="question-item" data-answer="number">
+          What will typeof NaN return?
+          <ol type="a">
+            <li>
+              <input
+                type="radio"
+                name="question-3"
+                id="question-option"
+                value="undefined"
+                class="answer"
+              />
+              <label for="question-option">undefined</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="question-3"
+                id="question-option"
+                value="object"
+                class="answer"
+              />
+              <label for="question-option">object</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="question-3"
+                id="question-option"
+                value="NaN"
+                class="answer"
+              />
+              <label for="question-option">NaN</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="question-3"
+                id="question-option"
+                value="number"
+                class="answer"
+              />
+              <label for="question-option">number</label>
+            </li>
+          </ol>
+        </li>
+
+        <!-- 4th  -->
+
+        <li class="question-item" data-answer="const">
+          What keyword is used to define a constant in JavaScript?
+          <ol type="a">
+            <li>
+              <input
+                type="radio"
+                name="question-4"
+                id="question-option"
+                value="let"
+                class="answer"
+              />
+              <label for="question-option">let</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="question-4"
+                id="question-option"
+                value="var"
+                class="answer"
+              />
+              <label for="question-option">var</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="question-4"
+                id="question-option"
+                value="const"
+                class="answer"
+              />
+              <label for="question-option">const</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="question-4"
+                id="question-option"
+                value="static"
+                class="answer"
+              />
+              <label for="question-option">static</label>
+            </li>
+          </ol>
+        </li>
+      </ol>
+
+      <button type="submit">submit</button>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

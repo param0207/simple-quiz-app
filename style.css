@@ -1,0 +1,22 @@
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+
+.cong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(87, 228, 87);
+  color: green;
+  padding: 24px 48px;
+  border-radius: 10px;
+  display: none;
+}
+
+.cong.show {
+  display: block;
+}
